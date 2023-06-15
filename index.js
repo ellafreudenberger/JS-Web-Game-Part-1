@@ -28,7 +28,7 @@ newImage("assets/well.png","fixed", "5000px", "450px");
 
 
 //function declaration for newItem
-function newItem (ImageSource,ImagePosition, ImageLeft, ImageBottom) {let Item = newImage (ImageSource,ImagePosition, ImageLeft, ImageBottom); 
+function newItem (ImageSource, ImagePosition, ImageLeft, ImageBottom) {let Item = newImage (ImageSource, ImagePosition, ImageLeft, ImageBottom); 
 
 Item.addEventListener('dblclick', function (){
     Item.remove() });
